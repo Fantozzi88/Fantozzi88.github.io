@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Carlos Quinones
+title: Carlos Quiñones
 ---
 
 # Bienvenido 👋
