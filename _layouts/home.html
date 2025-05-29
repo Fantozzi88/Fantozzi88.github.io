@@ -9,56 +9,26 @@
       font-family: system-ui, sans-serif;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-    }
-    header {
-      background: #2c3e50;
+      background-image: url('/assets/img/fondo.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
       color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav {
-      background: #34495e;
-      padding: 0.5rem;
-      text-align: center;
-    }
-    nav a {
-      color: #ecf0f1;
-      text-decoration: none;
-      margin: 0 1rem;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
     }
     main {
-      max-width: 800px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
       margin: 2rem auto;
-      padding: 1rem;
-      background: white;
+      max-width: 800px;
       border-radius: 8px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.8rem;
-      color: #999;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>{{ site.title | default: "Mi Sitio Web" }}</h1>
-    <p>{{ site.description | default: "Bienvenido a mi espacio personal" }}</p>
-  </header>
-  <nav>
-    <a href="/">Inicio</a>
-    <a href="/cv">Trayectoria</a>
-    <a href="/triatlon">Triatlón</a>
-  </nav>
   <main>
     {{ content }}
   </main>
-  <footer>
-    &copy; {{ site.time | date: "%Y" }} Carlos Quiñones
-  </footer>
 </body>
 </html>
