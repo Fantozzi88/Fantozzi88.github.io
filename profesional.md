@@ -20,6 +20,6 @@ Soy especialista en seguimiento de políticas públicas, con experiencia en espa
 
 ## Contacto
 
-Puedes escribirme a [tu email] o encontrarme en [LinkedIn](https://www.linkedin.com/in/tuusuario/).
+Puedes escribirme a cquinones.huayna@gmail.com o encontrarme en [LinkedIn](https://www.linkedin.com/in/tuusuario/).
 
 <!-- Aquí puedes agregar más secciones o enlaces a PDFs, publicaciones, etc. -->
