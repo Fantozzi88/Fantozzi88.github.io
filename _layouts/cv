@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Quiñones - Economista & Especialista en Gestión Social</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .contacto {
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .habilidades {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .habilidad {
+            background: #e8f4fc;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        .experiencia {
+            margin-bottom: 15px;
+        }
+        .experiencia h3 {
+            margin-bottom: 5px;
+        }
+        .experiencia p {
+            margin-top: 0;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CARLOS ALFREDO QUIÑONES HUAYNA</h1>
+        <p>Economista | Especialista en Gestión de Inversión Social y Desarrollo Sostenible</p>
+    </header>
+
+    <section>
+        <h2>Sobre Mí</h2>
+        <p>Economista de la PUCP con más de 6 años de experiencia en el sector público, privado y sociedad civil. Especializado en gestión de inversión social, relacionamiento comunitario y análisis estadístico.</p>
+    </section>
+
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <p><strong>Email:</strong> equinones@pucp.edu.pe | equinones.huayna@gmail.com</p>
+        <p><strong>Teléfono:</strong> 955363684</p>
+        <p><strong>Dirección:</strong> Calle Tacna 195 - Miraflores, Lima</p>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <ul>
+            <li><strong>Maestría en Estadística</strong> - PUCP (2020 - En curso)</li>
+            <li><strong>Economía</strong> - PUCP (2009 - 2015)</li>
+            <li><strong>Diplomados:</strong> Gestión de Conflictos (INAGEP), Administración Pública (IPAPPG)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Habilidades Técnicas</h2>
+        <div class="habilidades">
+            <span class="habilidad">R (Avanzado)</span>
+            <span class="habilidad">STATA (Avanzado)</span>
+            <span class="habilidad">Excel VBA</span>
+            <span class="habilidad">Análisis Estadístico</span>
+            <span class="habilidad">Gestión de Proyectos</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiencia Profesional</h2>
+        <div class="experiencia">
+            <h3>Especialista de Seguimiento y Gestión de Compromisos</h3>
+            <p>Presidencia del Consejo de Ministros (2020 - Actualidad)</p>
+            <ul>
+                <li>Gestión de planes de inversión social en zonas de conflictividad minera.</li>
+                <li>Promoción de +100 proyectos de inversión pública bajo el mecanismo de obras por impuestos.</li>
+            </ul>
+        </div>
+        <!-- Añade más experiencias siguiendo el mismo formato -->
+    </section>
+
+    <section>
+        <h2>Publicaciones</h2>
+        <ul>
+            <li>“Recaudación Fiscal y beneficios tributarios en el sector minero” (OXFAM, 2017)</li>
+            <li>“Diversificación productiva en el Perú” (Revista Punto de Vista, 2018)</li>
+        </ul>
+    </section>
+</body>
+</html>
