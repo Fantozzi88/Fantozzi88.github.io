@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }} | Carlos Quiñones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <style>
+      body {
+        font-family: 'Georgia', serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #222;
+      }
+
+      header {
+        background-color: #1a1a1a;
+        padding: 1em;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2em;
+        color: #ffffff;
+      }
+
+      nav a {
+        margin: 0 10px;
+        color: #cccccc;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        color: #ffffff;
+      }
+
+      main {
+        background-color: #ffffff;
+        margin: 2em auto;
+        padding: 2em;
+        max-width: 900px;
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+
+      footer {
+        text-align: center;
+        padding: 1em;
+        color: #888;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="/" style="color: white;">Carlos Quiñones</a></h1>
+      <nav>
+        <a href="/">Inicio</a> |
+        <a href="/profesional">Profesional</a> |
+        <a href="/deportivo">Deportivo</a>
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Carlos Quiñones - Perfil Profesional</p>
+    </footer>
+  </body>
+</html>
