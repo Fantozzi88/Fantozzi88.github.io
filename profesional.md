@@ -15,11 +15,11 @@ Soy especialista en seguimiento de políticas públicas, con experiencia en espa
 
 ## Formación
 
-- Licenciado en [tu carrera] por [tu universidad].
+- Licenciado en Economía por PUCP.
 - Especialización en políticas públicas y gobernanza.
 
 ## Contacto
 
-Puedes escribirme a cquinones.huayna@gmail.com o encontrarme en [LinkedIn](https://www.linkedin.com/in/tuusuario/).
+Puedes escribirme a cquinones.huayna@gmail.com o encontrarme en [LinkedIn](https://www.linkedin.com/in/carlquinones/).
 
 <!-- Aquí puedes agregar más secciones o enlaces a PDFs, publicaciones, etc. -->
