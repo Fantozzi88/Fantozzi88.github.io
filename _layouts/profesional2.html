@@ -1,1 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title | default: "Perfil Profesional" }}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0c1b1b;
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #081414;
+      border-bottom: 1px solid #333;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px;
+      gap: 40px;
+    }
+    .sidebar {
+      flex: 1 1 300px;
+      max-width: 300px;
+      text-align: center;
+    }
+    .sidebar img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+    }
+    .sidebar h2, .sidebar h3 {
+      margin: 10px 0 5px;
+    }
+    .sidebar .icons a {
+      margin: 0 5px;
+      text-decoration: none;
+      color: #ccc;
+    }
+    .main {
+      flex: 2 1 500px;
+    }
+    .main h2 {
+      color: #7ed6df;
+    }
+    .button {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #2c3e50;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+      margin: 10px 0;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "• ";
+      color: #7ed6df;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 20px;
+      }
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>{{ site.title }}</strong></div>
+    <nav>
+      <a href="/">Inicio</a>
+      <a href="/profesional">Profesional</a>
+      <a href="/deportivo">Deportivo</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <img src="{{ '/assets/img/carlos.jpg' | relative_url }}" alt="Carlos Quiñones" />
+      <h2>Carlos Quiñones</h2>
+      <h3>Economista</h3>
+      <p>PCM - Gestión de Inversión Social</p>
+      <div class="icons">
+        <a href="#"><strong>LinkedIn</strong></a>
+        <a href="#"><strong>Mail</strong></a>
+        <a href="#"><strong>CV</strong></a>
+      </div>
+    </aside>
+
+    <section class="main">
+      <h2>Sobre Mí</h2>
+      <p>Economista PUCP con más de 6 años de experiencia en gestión de conflictos, inversión social y análisis de datos. Actualmente en PCM desarrollando estrategias para el seguimiento de compromisos de alto nivel.</p>
+
+      <a href="/assets/cv-carlos.pdf" class="button">Descargar CV</a>
+
+      <h2>Intereses</h2>
+      <ul>
+        <li>Gestión pública</li>
+        <li>Relaciones comunitarias</li>
+        <li>Transformación digital</li>
+      </ul>
+
+      <h2>Educación</h2>
+      <ul>
+        <li>Maestría en Estadística - PUCP</li>
+        <li>Economía - PUCP</li>
+        <li>Diplomado en Gestión de Conflictos - INAGEP</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
 
